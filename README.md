@@ -54,3 +54,7 @@ npx ng g m <name>
 ```
 npx ng g c <name>
 ```
+- Generate service
+```
+npx ng g s <name>
+```

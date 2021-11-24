@@ -5,7 +5,7 @@ import { Component } from '@angular/core'
 	template: `
 		<section class="d-flex">
 			<app-sidenav></app-sidenav>
-			<app-gifs class="container"></app-gifs>
+			<app-gifs class="container mt-4"></app-gifs>
 			<!-- <router-outlet></router-outlet> -->
 		</section>
 	`,

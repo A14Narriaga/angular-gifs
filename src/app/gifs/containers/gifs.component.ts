@@ -3,7 +3,7 @@ import { Component, OnInit } from '@angular/core'
 @Component({
 	selector: 'app-gifs',
 	template: `
-		<div class="row p-3">
+		<div class="row">
 			<div class="col">
 				<app-search-input></app-search-input>
 			</div>
