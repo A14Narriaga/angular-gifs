@@ -29,3 +29,28 @@
   crossorigin="anonymous"
 />
 ```
+
+## Prettier
+```
+{
+	"semi": false,
+	"singleQuote": true,
+	"useTabs": true,
+	"printWidth": 60,
+	"bracketSpacing": true,
+	"bracketSameLine": true,
+	"htmlWhitespaceSensitivity": "ignore",
+	"arrowParens": "always",
+	"endOfLine": "lf"
+}
+```
+
+## Angular CLI
+- Generate module
+```
+npx ng g m <name>
+```
+- Generate component
+```
+npx ng g c <name>
+```
