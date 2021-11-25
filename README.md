@@ -5,10 +5,6 @@
 - 🔨 Doesn't fix a bug or add a function
 - 🎨 Not affect the meaning of the code
 
-## Typescript interfaces
-- (Quicktype)[https://app.quicktype.io/]
-- ![Quicktype configuration](./README/img/quicktypeConfig.png)
-
 ## Bootstrap5
 ```
 <link
@@ -62,3 +58,7 @@ npx ng g c <name>
 ```
 npx ng g s <name>
 ```
+
+## Typescript interfaces
+- [Quicktype](https://app.quicktype.io/)
+![Quicktype configuration](./README/img/quicktypeConfig.png)
