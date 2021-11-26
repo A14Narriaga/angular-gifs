@@ -1,20 +1,12 @@
 <div id="sidenav" class="bg-dark border-right p-3">
 	<h4 class="text-white">History</h4>
 	<hr class="text-white" />
-	<div class="list-group">
-		<a
+	<section class="list-group">
+		<div
 			*ngFor="let item of history"
-			routerLink=""
-			routerLinkActive="active"
-			class="list-group-item">
+			class="list-group-item"
+			(click)="search(item)">
 			{{ item | titlecase }}
-		</a>
-		<!-- <a
-			routerLink=""
-			[routerLinkActiveOptions]="{ exact: true }"
-			routerLinkActive="active"
-			class="list-group-item">
-			Countries
-		</a> -->
-	</div>
+		</div>
+	</section>
 </div>
