@@ -1,7 +1,11 @@
 <section class="row">
 	<div
 		*ngFor="let item of results"
-		class="card col-lg-2 col-md-4 col-sm-6">
+		class="
+			card
+			col-lg-2 col-md-4 col-sm-6
+			animate__animated animate__fadeIn
+		">
 		<img
 			[src]="item.images.downsized_medium.url"
 			[alt]="item.title"
